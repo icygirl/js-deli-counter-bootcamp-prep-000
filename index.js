@@ -23,6 +23,6 @@ function currentLine(katzDeliLine) {
     for (let i = 0; i < katzDeliLine.length; i++) {
       namePostion.push(` ${i + 1}. ${katzDeliLine[i]}`)
     }
-  return "The line is currently: " + namePostion
+  return "The line is currently:" + namePostion
   }
 }
