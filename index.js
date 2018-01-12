@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
   if(katzDeliLine.length === 0) {
     return "The line is currently empty."
   } else {
-    namePostion = [];
+    var namePostion = [];
     for (i = 0; i < katzDeliLine.length; i++) {
       namePostion.push(`${i + 1}. ${katzDeliLine[1]}`)
     }
